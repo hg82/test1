@@ -1,0 +1,16 @@
+<!-- Banner HTML -->
+<div id="business-sale-banner" style="background: #f8f9fa; border: 1px solid #ccc; padding: 10px; text-align: center; font-family: Arial, sans-serif;">
+  <p style="margin: 0; font-size: 16px; color: #333;">
+    Este negócio está à venda! 
+    <a href="https://seusite.com/fazer-oferta" target="_blank" style="color: #007bff; text-decoration: none; font-weight: bold;">Faça uma oferta agora</a>
+  </p>
+  <button onclick="sendOffer()" style="margin-top: 5px; padding: 10px 20px; background: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer;">
+    Enviar Oferta
+  </button>
+</div>
+
+<script>
+  function sendOffer() {
+    window.open('https://seusite.com/fazer-oferta', '_blank');
+  }
+</script>
